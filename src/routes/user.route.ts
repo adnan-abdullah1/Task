@@ -4,6 +4,6 @@ import apis from '../controllers/user.controller';
 const router: Router = express.Router({ mergeParams: true });
 
 router.get('/dashboard', apis.dashboard);
-router.get('/profile/:userId', apis.profile);
+router.get('/profile/:userId',auth(), apis.profile);
 
 export default router;
