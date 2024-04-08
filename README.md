@@ -8,6 +8,8 @@ Task apis
 2. Install dependencies:
     npm i
 
+3. Create a `.env` file at the root of the project and add the data sent in mail:
+
 ### Running the Server
 
 To start the server, run:
